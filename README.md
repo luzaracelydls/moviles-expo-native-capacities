@@ -17,9 +17,9 @@ No todas las funciones nativas se comportan igual en Expo Web y Expo Go. Necesit
 
 ---
 
-# 1. Crear el proyecto
+# Crear el proyecto
 
-## 1.1. Requisitos
+## Requisitos
 
 Necesitamos:
 
@@ -30,7 +30,7 @@ Necesitamos:
 - VS Code o el editor de código de tu preferencia
 - Conexión entre la computadora y el teléfono para las pruebas en vivo.
 
-## 1.2. Revisar la estructura
+## Revisa el directorio de archivos
 
 Crearemos los siguientes archivos:
 
@@ -51,7 +51,7 @@ explora/
 
 **Nota para quienes utilizan algun template** Si tu proyecto tiene una estructura diferente, conserva las rutas y la configuración existentes y adapta los archivos de esta guía.
 
-## 1.3. Instalar las dependencias
+## Dependencias que necesitaremos
 
 Desde la raíz del proyecto, ejecuta:
 
@@ -80,7 +80,7 @@ No continúes con los ejemplos nativos hasta comprobar que puedes abrir el proye
 
 ---
 
-# 2. Primera capacidad: cámara y galería
+# Acceso a cámara
 
 
 Permitir que el usuario tome una fotografía o seleccione una imagen y mostrarla en la interfaz.
@@ -94,7 +94,7 @@ Permitir que el usuario tome una fotografía o seleccione una imagen y mostrarla
 - Manejo de cancelaciones.
 - URI de una imagen.
 
-## 2.1. Crear el componente
+## Crea el componente de Camara
 
 Crea `components/CameraPicker.js`:
 
